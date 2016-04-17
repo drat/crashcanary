@@ -1,0 +1,6 @@
+{
+  "name": "Crash Canary",
+  "tagline": "Dead simple python exception notifier",
+  "body": "Get email notifications when your long-running python script dies unexpectedly. No dependencies, no API keys, minimal config: just two lines at the top of your script.\r\n\r\n```python\r\nimport crashcanary\r\ncrashcanary.init('example@gmail.com')\r\n\r\nprint('Doing dangerous things...')\r\nprint(4/0)\r\n```\r\nProduces:\r\n\r\n![Sample Email](https://raw.githubusercontent.com/revan/crashcanary/master/crash.png)\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}

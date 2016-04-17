@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Crash Canary by revan</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Crash Canary</h1>
+        <p>Dead simple python exception notifier</p>
+
+        <p class="view"><a href="https://github.com/revan/crashcanary">View the Project on GitHub <small>revan/crashcanary</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/revan/crashcanary/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/revan/crashcanary/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/revan/crashcanary">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <p>Get email notifications when your long-running python script dies unexpectedly. No dependencies, no API keys, minimal config: just two lines at the top of your script.</p>
+
+<div class="highlight highlight-source-python"><pre><span class="pl-k">import</span> crashcanary
+crashcanary.init(<span class="pl-s"><span class="pl-pds">'</span>example@gmail.com<span class="pl-pds">'</span></span>)
+
+<span class="pl-c1">print</span>(<span class="pl-s"><span class="pl-pds">'</span>Doing dangerous things...<span class="pl-pds">'</span></span>)
+<span class="pl-c1">print</span>(<span class="pl-c1">4</span><span class="pl-k">/</span><span class="pl-c1">0</span>)</pre></div>
+
+<p>Produces:</p>
+
+<p><img src="https://raw.githubusercontent.com/revan/crashcanary/master/crash.png" alt="Sample Email"></p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/revan">revan</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
